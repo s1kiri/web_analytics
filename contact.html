@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Контакты</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">🇬🇧 Английский для всех</a>
+        <ul>
+            <li><a href="a1-a2.html">A1–A2</a></li>
+            <li><a href="b1-b2.html">B1–B2</a></li>
+            <li><a href="c1-c2.html">C1–C2</a></li>
+            <li><a href="resources.html">Ресурсы</a></li>
+            <li><a href="feedback.html">Отзывы</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="container">
+    <h1>Связаться с нами</h1>
+    <p>Есть вопросы? Напишите нам!</p>
+    <div class="form">
+    <label for="email">Ваш email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="topic">Тема:</label>
+    <select id="topic" name="topic">
+    <option>Общие вопросы</option>
+    <option>Предложения советов (обязетально указывайте уровень)</option>
+    <option>Ошибка на сайте</option>
+    </select>
+
+    <label for="text">Сообщение:</label>
+    <textarea id="text" name="text" rows="4" required></textarea>
+
+    <button type="submit">Отправить</button>
+    </div>
+    <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" class="full-width">
+</main>
+<footer>© 2025 Английский для всех</footer>
+</body>
+</html>
