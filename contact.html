@@ -22,22 +22,22 @@
 <main class="container">
     <h1>Связаться с нами</h1>
     <p>Есть вопросы? Напишите нам!</p>
-    <div class="form">
-    <label for="email">Ваш email:</label>
-    <input type="email" id="email" name="email" required>
+    <form name="contact" method="POST" data-netlify="true">
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" name="email" required>
 
-    <label for="topic">Тема:</label>
-    <select id="topic" name="topic">
-    <option>Общие вопросы</option>
-    <option>Предложения советов (обязетально указывайте уровень)</option>
-    <option>Ошибка на сайте</option>
-    </select>
+        <label for="topic">Тема:</label>
+        <select id="topic" name="topic">
+        <option>Общие вопросы</option>
+        <option>Предложения советов (обязетально указывайте уровень)</option>
+        <option>Ошибка на сайте</option>
+        </select>
 
-    <label for="text">Сообщение:</label>
-    <textarea id="text" name="text" rows="4" required></textarea>
+        <label for="text">Сообщение:</label>
+        <textarea id="text" name="text" rows="4" required></textarea>
 
-    <button type="submit">Отправить</button>
-    </div>
+        <button type="submit">Отправить</button>
+    </form>
     <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" class="full-width">
 </main>
 <footer>© 2025 Английский для всех</footer>
